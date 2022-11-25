@@ -33,6 +33,7 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+/web/mediafiles
 
 # Installer logs
 pip-log.txt
@@ -103,9 +104,9 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+#.env
 .venv
-env/
+#env/
 venv/
 ENV/
 env.bak/
