@@ -13,7 +13,7 @@ services:
     expose:
       - 8000
     env_file:
-      - ./.env.prod
+      - docker/prod/env/.prod.env
     depends_on:
       - db
   db:
@@ -21,7 +21,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     env_file:
-      - ./.env.prod.db
+      - docker/prod/env/.db.prod.env
   nginx-proxy:
     container_name: nginx-proxy
     build: nginx
