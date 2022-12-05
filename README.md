@@ -1,4 +1,4 @@
-# amazing-django - deploy-ready django template on docker
+# AmazingDjango - deploy-ready django template on docker
 
 ### How to use:
 
